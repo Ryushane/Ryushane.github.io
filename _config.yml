@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ryushane's Safe Room
+title: Ryushane's Blog
 email: ryushane@outlook.com
 author: Ryushane
 
@@ -47,7 +47,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-baseurl: "/ryushane.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "" # the favicon for your site
 
@@ -156,25 +156,25 @@ yat:
 # Page default value
 defaults:
   home:
-    heading: "Your awesome heading"
-    subheading: "Your awesome subheading"
-    banner: "https://raw.githubusercontent.com/Ryushane/ryushane.github.io/main/assets/images/banners/home.jpeg"
+    heading: "Welcome to my blog."
+    subheading: "夏まで生きていよ"
+    banner: ""
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
 # config it by the front matter for one specific post
-# banner:
-#   video: null             # Video banner source
-#   loop: true              # Video loop
-#   volume: 0               # Video volume (100% is 1.0)
-#   start_at: 0             # Video start time
-#   image: null             # Image banner source
-#   opacity: 1.0            # Banner opacity (100% is 1.0)
-#   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
-#   height: "640px"         # Banner default height
-#   min_height: null        # Banner minimum height
-#   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
-#   subheading_style: null  # Custom subheading style (e.g. color: gold)
+banner:
+  video: null             # Video banner source
+  loop: true              # Video loop
+  volume: 0               # Video volume (100% is 1.0)
+  start_at: 0             # Video start time
+  image: true             # Image banner source
+  opacity: 0.5            # Banner opacity (100% is 1.0)
+  background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
+  height: "640px"         # Banner default height
+  min_height: null        # Banner minimum height
+  heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
+  subheading_style: null  # Custom subheading style (e.g. color: gold)
 
 # Excerpt size setting
 # excerpt_size: 350
