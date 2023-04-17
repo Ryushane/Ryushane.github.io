@@ -5,8 +5,10 @@ author:       "Hux"
 header-style: text
 catalog:      true
 tags:
-    - Web
-    - JavaScript
+    - Obsidian
+    - Picgo
+encoding: GBK
+​---
 ---
 
 这个最近也是受女朋友的安利，把自己的周报日报和工作进度从Notion转入到了Obsidian中，没什么特别多的理由，虽然Obsidian的看板不好用，没有Notion那么好用的database，但它是离线的这一点就已经足够了，运行速率杠杠的。
@@ -21,6 +23,7 @@ tags:
 这里权限把repo的权限勾上就行。
 ![2023-04-12_使用github作为Obsidian图床-20230412-1](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-1_17-33-42.png)
 确定之后得到token，复制下来留着一会放到picgo-core的配置文件中。
+
 ## Picgo-core设置
 ### 安装Picgo-core
 先安装node-js
