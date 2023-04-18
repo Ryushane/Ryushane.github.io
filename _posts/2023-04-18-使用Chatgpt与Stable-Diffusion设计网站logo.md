@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Obsidian使用github作为图床"
+title:        "使用Chatgpt与Stable-Diffusion设计网站logo"
 author:       "Hux"
 header-style: text
 catalog:      true
