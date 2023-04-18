@@ -1,3 +1,14 @@
+---
+layout:       post
+title:        "Obsidian使用github作为图床"
+author:       "Hux"
+header-style: text
+catalog:      true
+tags:
+    - Chatgpt
+    - Stable Diffusion
+---
+
 ![2023-04-18-使用Chatgpt与Stable-Diffusion设计网站icon-20230418-1](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/18/2023-04-18-%E4%BD%BF%E7%94%A8Chatgpt%E4%B8%8EStable-Diffusion%E8%AE%BE%E8%AE%A1%E7%BD%91%E7%AB%99icon-20230418-1_10-49-58.png)
 ![2023-04-18-使用Chatgpt与Stable-Diffusion设计网站icon-20230418-2](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/18/2023-04-18-%E4%BD%BF%E7%94%A8Chatgpt%E4%B8%8EStable-Diffusion%E8%AE%BE%E8%AE%A1%E7%BD%91%E7%AB%99icon-20230418-2_10-49-58.png)
 接下来把这些关键词放到Prompt中，有选择性地删除或增加keyword。比如Geek效果就不怎么好，删了换成hexagon等抽象多边形。在这里我加入了<lora:lightAndShadow_v10:1> <lora:lightlineArtLora_v10:1>这两个光影lora，让光影效果更符合我的喜好。

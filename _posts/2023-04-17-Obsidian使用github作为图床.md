@@ -22,7 +22,7 @@ encoding: GBK
 
 ![](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412_17-33-42.png)
 这里权限把repo的权限勾上就行。
-![2023-04-12-使用github作为Obsidian图床-20230412-1](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-1_17-33-42.png)
+![](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-1_17-33-42.png)
 确定之后得到token，复制下来留着一会放到picgo-core的配置文件中。
 
 ## Picgo-core设置
@@ -40,8 +40,9 @@ picgo install github-plus
 picgo install rename-file
 ```
 将会看到如下输出：
-![2023-04-12\_使用github作为Obsidian图床-20230412-2](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-2_17-33-42.png)
+![](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-2_17-33-42.png)
 到这里插件就安装完成了。
+
 ### Picgo-core配置文件
 下面进入对picgo-core进行配置，首先打开PicGo-Core配置文件config.json，填入相关配置信息。
 > Linux 和 macOS 下配置文件位置为`~/.picgo/config.json`。
@@ -54,6 +55,7 @@ picgo install rename-file
 首先在自己的terminal试一下，复制一张图片到剪切板，然后去terminal运行：
 `picgo u`
 应该会得到上传成功的消息。
+
 ## Obsidian插件下载
 去Obsidian三方插件市场下载image auto upload plugin，安装后启动，把默认上传器改成picgo-core就可以使用了。
-![2023-04-12_使用github作为Obsidian图床-20230412-3](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-3_17-33-42.png)
+![](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-3_17-33-42.png)
