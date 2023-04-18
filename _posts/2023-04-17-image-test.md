@@ -8,8 +8,9 @@ tags:
     - Obsidian
     - Picgo
 encoding: GBK
-​---
 ---
+
+![獭](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/17/獭_22-05-03.jpg)
 
 这个最近也是受女朋友的安利，把自己的周报日报和工作进度从Notion转入到了Obsidian中，没什么特别多的理由，虽然Obsidian的看板不好用，没有Notion那么好用的database，但它是离线的这一点就已经足够了，运行速率杠杠的。
 转过来之后有些文章也懒得再打开Typora写了，使用Obsidian的插件自动重命名还有丰富的日历插件、模板插件，这都能帮我快速地搭建好一篇新文章的架构。
@@ -21,7 +22,7 @@ encoding: GBK
 
 ![](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412_17-33-42.png)
 这里权限把repo的权限勾上就行。
-![2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-1](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-1_17-33-42.png)
+![2023-04-12-使用github作为Obsidian图床-20230412-1](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-1_17-33-42.png)
 确定之后得到token，复制下来留着一会放到picgo-core的配置文件中。
 
 ## Picgo-core设置
@@ -39,7 +40,7 @@ picgo install github-plus
 picgo install rename-file
 ```
 将会看到如下输出：
-![2023-04-12_使用github作为Obsidian图床-20230412-2](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-2_17-33-42.png)
+![2023-04-12\_使用github作为Obsidian图床-20230412-2](https://cdn.jsdelivr.net/gh/Ryushane/PicGo_Pictures/img/2023/04/12/2023-04-12_%E4%BD%BF%E7%94%A8github%E4%BD%9C%E4%B8%BAObsidian%E5%9B%BE%E5%BA%8A-20230412-2_17-33-42.png)
 到这里插件就安装完成了。
 ### Picgo-core配置文件
 下面进入对picgo-core进行配置，首先打开PicGo-Core配置文件config.json，填入相关配置信息。
