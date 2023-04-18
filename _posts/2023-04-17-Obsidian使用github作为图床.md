@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "Obsidian使用github作为图床"
-author:       "Hux"
+author:       "Ryushane"
 header-style: text
 catalog:      true
 tags:
