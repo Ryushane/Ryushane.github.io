@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "使用Chatgpt与Stable-Diffusion设计网站logo"
-author:       "Hux"
+author:       "Ryushane"
 header-style: text
 catalog:      true
 tags:
