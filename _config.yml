@@ -13,10 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: ryushane
+# weibo_username: ryuushane
 zhihu_username: ryushane
+# bilibili_username: 3882240
 github_username: ryushane
-twitter_username: ryushane
+# twitter_username: ryushane
 #facebook_username:  ryushane
 #linkedin_username:  firstname-lastname-idxxxx
 
