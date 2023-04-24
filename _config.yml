@@ -4,7 +4,7 @@ SEOTitle: Ryushane Blog
 header-img: img/home-bg.jpg
 email: ryushane.net@gmail.com
 description: ""
-keyword: "Ryushane, 前IC设计实习生, 现金融底层打工仔"
+keyword: "Ryushane, 前NVIDIA SYS-ASIC Verification实习生, 现央企底层打工人。"
 url: "https://ryushane.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-# disqus_username: 
+disqus_username: ryushane
 
 # Netease settings
 netease_comment: false
@@ -69,8 +69,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "" # Format: UA-xxxxxx-xx
-ga_domain: 
+ga_track_id: "G-Q2TFX13SK1" # Format: UA-xxxxxx-xx
+ga_domain: auto
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
